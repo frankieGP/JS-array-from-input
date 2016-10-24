@@ -13,7 +13,9 @@ $(document).ready(function(event) {
     inputs2.push(inputs[0]);
     inputs2.push(inputs[2]);
 
-    $("#favoriteResults").text(inputs2);
+    $("#1").text(inputs[1]);
+    $("#0").text(inputs[0]);
+    $("#2").text(inputs[2]);
 
     event.preventDefault();
 
